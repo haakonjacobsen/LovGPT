@@ -50,11 +50,19 @@ LovGPT is designed to serve as a comprehensive legal resource for anyone seeking
 
 ## Contribute 💡
 
-We welcome contributions to LovGPT! If you would like to report bugs, suggest new features, or help improve the codebase, please create an issue or submit a pull request on our GitHub repository.
+We welcome contributions to LovGPT! If you would like to report bugs, suggest new features, or help improve the codebase, please create an issue or submit a pull request on our GitHub repository. Visuals are represented below. 
 
 ## License 📄
 
 LovGPT is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## Architecture 🛠️🏗️
+LovGPT is being built using my own experimental architecture, called the "experts" architecture, visualized below. The general idea is to have multiple instances of AI Agents (Experts) where each one are expert in a specific field by providing them with their own knowledge base. The Broker Agent handles the communiaction between the user and the rest of the system, figuring out "who to talk to" by utilizing the decision system. The architecture also includes a review process, in the end, which is optional. This is to determine if the answer actually answers the question. 
+
+<img src="https://github.com/haakonjacobsen/LovGPT/assets/15661593/34873054-db75-4e15-a1e4-a1bfe0fee720" width="600" title="Experts Architecture">
+
+The Architecture was first created as a theoretical concept, and is very experimental, but similar architectures such as the [MRKL system](https://arxiv.org/pdf/2205.00445.pdf) has shown potential.
+
 
 ## Acknowledgments 🙏
 
