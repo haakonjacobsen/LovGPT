@@ -57,7 +57,9 @@ We welcome contributions to LovGPT! If you would like to report bugs, suggest ne
 LovGPT is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Architecture 🛠️🏗️
-LovGPT is being built using my own experimental architecture, called the "experts" architecture, visualized below. The general idea is to have multiple instances of AI Agents (Experts) where each one are expert in a specific field by providing them with their own knowledge base. The Broker Agent handles the communiaction between the user and the rest of the system, figuring out "who to talk to" by utilizing the decision system. The architecture also includes a review process, in the end, which is optional. This is to determine if the answer actually answers the question. 
+LovGPT is being built using my own experimental architecture, called the "experts" architecture, visualized below. The general idea is to have multiple instances of AI Agents (Experts) where each one are expert in a specific field by providing them with their own knowledge base. The Broker Agent handles the communication between the user and the rest of the system, figuring out "who to talk to" by utilizing the decision system. This makes the system modifiable, as more experts can easily be added for broader or more specific use cases.
+
+The architecture also includes a review process, in the end, which is optional. This is to determine if the answer actually answers the question. 
 
 <img src="https://github.com/haakonjacobsen/LovGPT/assets/15661593/34873054-db75-4e15-a1e4-a1bfe0fee720" width="600" title="Experts Architecture">
 
