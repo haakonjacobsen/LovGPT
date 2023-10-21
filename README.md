@@ -61,7 +61,7 @@ LovGPT is being built using my own experimental architecture, called the "expert
 
 The architecture also includes a review process, in the end, which is optional. This is to determine if the answer actually answers the question. 
 
-<img src="https://github.com/haakonjacobsen/LovGPT/assets/15661593/34873054-db75-4e15-a1e4-a1bfe0fee720" width="600" title="Experts Architecture">
+<img src="https://github.com/haakonjacobsen/LovGPT/assets/15661593/06279759-2414-42da-9fad-609d4340dc40" width="600" title="Experts Architecture">
 
 The Architecture was first created as a theoretical concept, and is very experimental, but similar architectures such as the [MRKL system](https://arxiv.org/pdf/2205.00445.pdf) has shown potential.
 
