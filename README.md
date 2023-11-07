@@ -1,7 +1,7 @@
 # LovGPT 🤖⚖️🇳🇴
-LovGPT is an AI-powered legal assistant that leverages the power of GPT-4 and LangChain to provide users with accurate and reliable answers to their legal questions based on Norwegian law, legal practice, and other relevant legal documents from Lovdata. This revolutionary legal tool aims to make legal knowledge more accessible to the general public and aid legal professionals in their work.
+LovGPT is an AI-powered legal assistant that leverages the power of GPT-4 and LangChain to provide users with accurate and reliable answers to their legal questions based on Norwegian law, legal practice, and other relevant legal documents. This revolutionary legal tool aims to make legal knowledge more accessible to the general public and aid legal professionals in their work.
 
-🚀 **Houston, we have a... code delay!**: LovGPT is currently orbiting in a top-secret location, waiting for the perfect moment to land on GitHub. While it prepares for its grand entrance, I want to assure you that this groundbreaking AI, powered by GPT-4, LangChain, and Lovdata, is eager to assist you with all your Norwegian law questions. So, sit tight, buckle up, and get ready for launch! The countdown has begun... 🕒
+🚀 **Houston, we have a... code delay!**: LovGPT is currently orbiting in a top-secret location, waiting for the perfect moment to land on GitHub. While it prepares for its grand entrance, I want to assure you that this groundbreaking AI, powered by GPT-4 and LangChain, is eager to assist you with all your Norwegian law questions. So, sit tight, buckle up, and get ready for launch! The countdown has begun... 🕒
 
 ## Table of Contents 📚
 
@@ -19,7 +19,7 @@ LovGPT is designed to serve as a comprehensive legal resource for anyone seeking
 ## Features 🔎
 
 - **User-friendly Interface**: LovGPT features a clean and straightforward interface, making it easy for users to ask questions and receive answers.
-- **Reliable Legal Information**: Powered by [GPT-4](https://www.openai.com/gpt-4/), [LangChain](https://python.langchain.com/en/latest/index.html), and [Lovdata](https://lovdata.no/), LovGPT offers accurate legal insights based on Norwegian law, legal practice, and other legal documents.
+- **Reliable Legal Information**: Powered by [GPT-4](https://www.openai.com/gpt-4/) and [LangChain](https://python.langchain.com/en/latest/index.html) our own legal document store, LovGPT offers accurate legal insights based on Norwegian law, legal practice, and other legal documents.
 - **Natural Language Processing**: LovGPT's advanced NLP capabilities enable users to ask questions in everyday language and receive clear, concise answers.
 - **Secure and Private**: LovGPT ensures user privacy by not storing any personally identifiable information.
 
@@ -45,7 +45,7 @@ LovGPT is designed to serve as a comprehensive legal resource for anyone seeking
 
 1. Open a web browser and visit `http://localhost:5000` to access the LovGPT interface.
 2. Type your legal question into the input field and click the "Submit" button.
-3. LovGPT will analyze your question and generate a response based on Norwegian law, legal practice, and other relevant legal documents from Lovdata.
+3. LovGPT will analyze your question and generate a response based on Norwegian law, legal practice, and other relevant legal documents.
 4. Review the provided answer and consult a legal professional if necessary.
 
 ## Contribute 💡
@@ -70,5 +70,8 @@ The Architecture was first created as a theoretical concept, and is very experim
 
 - [OpenAI](https://www.openai.com/) for developing GPT-4.
 - [LangChain](https://www.langchain.com/) for their domain-specific expertise.
-- [Lovdata](https://lovdata.no/) for providing the Norwegian legal documents.
 - All contributors who have helped improve LovGPT.
+
+## Project Status 🔄
+
+Initially, LovGPT aimed to integrate Lovdata's legal databases, but their APIs did not meet our requirements for AI development. We've since shifted our approach to constructing a database from open-source documents, and also automating the process of building our corpus with image-to-text technology, and leveragining GPT-4 as a reasoning agent to deal with the dataset. Our goal remains to make Norwegian legal information more accessible.
